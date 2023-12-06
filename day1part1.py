@@ -1,0 +1,1 @@
+with open("1input.txt") as f: print(sum([int(i[0] + i[-1]) for i in filter(lambda j : j.isnumeric(), ["".join(filter(lambda j : j.isnumeric(), i)) for i in f.read().split("\n")])]))

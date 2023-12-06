@@ -1,0 +1,1 @@
+with open("2input.txt") as f: print(sum([[int(eval("max(" + i[1] + " 0)") <= 1) * int(i[0].split(" ")[-1]) for i in [[v.replace(";", "").replace(",", "").replace("red", "/ 12,").replace("green", "/ 13,").replace("blue", "/ 14,") if i > 0 else v for i, v in enumerate(sample.split(":"))]]][0] for sample in f.read().split("\n") if len(sample) > 0]))
